@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/CassieSisi/FightCassie.git"
   s.license          = 'MIT'
   s.author           = { "CassieSisi" => "1317647669@qq.com" }
-  s.source           = { :git => "https://github.com/CassieSisi/FightCassie.git", :tag => "v1.0.0" }
+  s.source           = { :git => "https://github.com/CassieSisi/FightCassie.git", :tag => "v1.0.1" }
   s.social_media_url = "https://github.com"
   s.documentation_url = "https://github.com/CassieSisi/FightCassie.git"
   s.platform     = :ios, '8.0'
