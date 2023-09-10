@@ -9,26 +9,19 @@
 
 Pod::Spec.new do |s|
   s.name             = "FightCassie"
-  s.version          = "1.0.3"
+  s.version          = "1.0.4"
   s.summary          = "FightCassie SDK for iOS"
   s.description      = "FightCassie的 iOS SDK"
 
   s.homepage         = "https://github.com/CassieSisi/FightCassie.git"
   s.license          = 'MIT'
   s.author           = { "CassieSisi" => "1317647669@qq.com" }
-  s.source           = { :git => "https://github.com/CassieSisi/FightCassie.git", :tag => "1.0.3" }
+  s.source           = { :git => "https://github.com/CassieSisi/FightCassie.git", :tag => "1.0.4" }
   s.social_media_url = "https://github.com"
   s.documentation_url = "https://github.com/CassieSisi/FightCassie.git"
   s.platform     = :ios, '8.0'
   s.requires_arc = true
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  
-    s.subspec 'MeiqiaSDK' do |ss|
-    ss.frameworks =  'AVFoundation', 'CoreTelephony', 'SystemConfiguration', 'MobileCoreServices'
-    ss.vendored_frameworks = 'FightCassieSDK-files/FightCassieSDK.framework'
-    ss.libraries  =  'sqlite3', 'icucore', 'stdc++'
-    ss.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => "${PODS_ROOT}/Meiqia/Meiqia-SDK-files"}
-  end
-  
+  s.vendored_frameworks = 'FightCassieSDK-files/FightCassieSDK.framework'
 end
