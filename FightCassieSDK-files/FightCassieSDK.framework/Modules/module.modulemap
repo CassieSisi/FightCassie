@@ -1,0 +1,6 @@
+framework module FightCassieSDK {
+  umbrella header "FightCassieSDK.h"
+
+  export *
+  module * { export * }
+}
