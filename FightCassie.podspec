@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "FightCassie"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "FightCassie SDK for iOS"
   s.description      = "FightCassie的 iOS SDK"
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB32A0372AADB69D002BDFDE /* FightCassieSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3E5C2E2AA9695600F06098 /* FightCassieSDK.framework */; };
 		CB3E5BD62AA9687E00F06098 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3E5BD52AA9687E00F06098 /* AppDelegate.m */; };
 		CB3E5BD92AA9687E00F06098 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3E5BD82AA9687E00F06098 /* SceneDelegate.m */; };
 		CB3E5BDC2AA9687E00F06098 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3E5BDB2AA9687E00F06098 /* ViewController.m */; };
@@ -17,7 +18,6 @@
 		CB3E5BF12AA9687F00F06098 /* FightCassieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3E5BF02AA9687F00F06098 /* FightCassieTests.m */; };
 		CB3E5BFB2AA9687F00F06098 /* FightCassieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3E5BFA2AA9687F00F06098 /* FightCassieUITests.m */; };
 		CB3E5BFD2AA9687F00F06098 /* FightCassieUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3E5BFC2AA9687F00F06098 /* FightCassieUITestsLaunchTests.m */; };
-		CB3E5C2F2AA9695600F06098 /* FightCassieSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3E5C2E2AA9695600F06098 /* FightCassieSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB3E5C2F2AA9695600F06098 /* FightCassieSDK.framework in Frameworks */,
+				CB32A0372AADB69D002BDFDE /* FightCassieSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +454,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H22N8T6DAX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FightCassie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -466,7 +467,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.FightCassie;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meiqia.MeiQiaSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -480,6 +481,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H22N8T6DAX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FightCassie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -492,7 +494,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.FightCassie;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meiqia.MeiQiaSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";

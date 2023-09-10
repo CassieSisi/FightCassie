@@ -7,7 +7,7 @@
 
 #import "ViewController.h"
 
-#import <FightCassieSDK/FightCassieManager.h>
+//#import <FightCassieSDK/FightCassieManager.h>
 
 @interface ViewController ()
 
@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    [[FightCassieManager shareManager]test];
+//    [[FightCassieManager shareManager]test];
 }
 
 
