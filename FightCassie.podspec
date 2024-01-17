@@ -9,14 +9,14 @@
 
 Pod::Spec.new do |s|
   s.name             = "FightCassie"
-  s.version          = "1.0.7"
+  s.version          = "1.0.11"
   s.summary          = "FightCassie SDK for iOS"
   s.description      = "FightCassie的 iOS SDK"
 
   s.homepage         = "https://github.com/CassieSisi/FightCassie.git"
   s.license          = 'MIT'
   s.author           = { "CassieSisi" => "1317647669@qq.com" }
-  s.source           = { :git => "https://github.com/CassieSisi/FightCassie.git", :tag => "1.0.7" }
+  s.source           = { :git => "https://github.com/CassieSisi/FightCassie.git", :tag => "1.0.11" }
   s.social_media_url = "https://github.com"
   s.documentation_url = "https://github.com/CassieSisi/FightCassie.git"
   s.platform     = :ios, '16.4'
